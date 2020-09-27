@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Please do not update Netflix to avoid compatibility issue. Please perform factory reset, If Netflix does not work. "
+        android:textColor="@drawable/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/reset_selector"
+        android:text="OK"
+        android:textColor="@drawable/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

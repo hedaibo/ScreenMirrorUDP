@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="green">#99ff33</drawable>
+    <drawable name="bule">#00cc00</drawable>
+    <drawable name="bule_light">#00ff66</drawable>
+    <drawable name="red_light">#E2364B</drawable>
+    <drawable name="color_pink">#ffdb03db</drawable>
+    <drawable name="black_little">#373844</drawable>
+    <color name="scan_corner_color">#0effc2</color>
+    <drawable name="list_select_color">#0A7BBA</drawable>
+    <drawable name="list_normal_color">#00000000</drawable>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wifi_item_selector"
+    >
+
+    <TextView
+        android:id="@+id/tv_list_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/device_icon"
+        android:drawablePadding="@dimen/tv_margin"
+        android:text="name"
+        android:padding="@dimen/tv_margin"
+        android:layout_marginLeft="20dp"
+        android:textColor="@drawable/white"
+        android:textSize="@dimen/tv_size" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_line"
+        />
+
+</LinearLayout>
